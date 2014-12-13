@@ -1,0 +1,24 @@
+#site-header,
+#site-content,
+#site-footer {
+	width:100%;
+}
+
+#top-navbar {
+	background: #fff;
+}
+
+#sub-navbar {
+	background: #4b0aa5;
+}
+
+#site-content-header {
+	background: #f3f3f4;
+}
+
+#site-footer {
+	background: #adacb2;
+
+}
+
+

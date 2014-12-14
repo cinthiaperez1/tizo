@@ -51,9 +51,23 @@ body {
 	font: 400 110%/1.5rem 'Ubuntu', Arial, sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', Arial, sans-serif;
+}
+
 #sub-navbar,
 #site-footer-content {
 	color: #fff;
+}
+
+
+.short-info p {
+	font-weight: 300;
+}
+
+/* Larger */
+.short-info p {
+	font-size: 1.5rem;
 }
 
 
@@ -150,7 +164,7 @@ body {
 
 #sub-navbar {
 	background: #4b0aa5;
-	padding: 1em 0;
+	padding: 1rem 0 .5rem;
 }
 
 #site-header {
@@ -158,12 +172,12 @@ body {
 }
 
 #content-header {
-	padding: 1em 0;
+	padding: 2rem 0;
 }
 
 #site-content > div,
 #site-content > section {
-	padding: 1em 0 2em 0;
+	padding: 1rem 0 2rem 0;
 }
 
 #site-footer {
@@ -171,7 +185,7 @@ body {
 }
 
 #footer-content {
-	padding: 1em 0;
+	padding: 1rem 0;
 }
 
 #site-footer-closinglinks {
@@ -180,5 +194,14 @@ body {
 }
 
 
+
+.project-pic {
+	background: #fff;
+
+}
+.project-pic.large {
+	min-height: 320px;
+	width: 100%;
+}
 
 

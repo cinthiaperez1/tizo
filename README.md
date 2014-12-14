@@ -7,43 +7,43 @@ Proyecto Elisava
 estructura
 ====
 
-#site-header
-Submenú y encabezados
+	#site-header
+	Submenú y encabezados
 
-	#sub-navbar
-	Submenu
+		#sub-navbar
+		Submenu
 
-	#content-header
-	Encabezado
+		#content-header
+		Encabezado
 		
-		.project-pic
-		Foto principal del proyecto
+			.project-pic
+			Foto principal del proyecto
 		
-		.project-pic.large
-		Foto principal en página principal de ficha proyecto
+			.project-pic.large
+			Foto principal en página principal de ficha proyecto
 		
 		
-#site-content
-Contenido principal de cada página
+	#site-content
+	Contenido principal de cada página
 
-	#project-main
-	Información principal sobre el proyecto
+		#project-main
+		Información principal sobre el proyecto
 	
-	#project-gallery
+		#project-gallery
 	
-	#project-collab
+		#project-collab
 	
 
-#site-footer
+	#site-footer
 
-	#footer-content
-	Contenido principal de footer, lo que va en columnas
+		#footer-content
+		Contenido principal de footer, lo que va en columnas
 	
-	#footer-copyright
-	©
+		#footer-copyright
+		©
 	
-	#site-footer-closinglinks
-	Links de ayuda que van sobre la última barra blanca
+		#site-footer-closinglinks
+		Links de ayuda que van sobre la última barra blanca
 	
 
 

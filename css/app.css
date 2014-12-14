@@ -7,7 +7,10 @@ INDICE
 1.0	- Type
 2.0 - Navigation
 	2.1 - Links
-6.0 - Layout
+	2.2 - Menus
+		2.2.1 - Topbar
+		2.2.2 - Submenu
+3.0 - Layout
 
 
 ---------------------------------
@@ -53,8 +56,17 @@ body {
 	color: #fff;
 }
 
-#sub-navbar li {
+
+/* Smaller */
+#sub-navbar li,
+#site-footer-closinglinks,
+#footer-copyright {
 	font-size: .75rem;
+}
+
+/* Uppercase */
+#sub-navbar li,
+#site-footer-closinglinks {
 	text-transform: uppercase;
 }
 
@@ -63,16 +75,25 @@ body {
 2.0 - Navigation
 -----------------------------------------------------------------*/
 
+
 /*-----------------------------------------------------------------
 2.2 - Menus
 -----------------------------------------------------------------*/
 
-    .top-bar-section li:not(.has-form) a:not(.button) {
-      background: #fff;
-      color: #12c4aa;
-     }
+
+/*
+2.2.1 - Topbar
+-----------------------------------------------------------------*/
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: #12c4aa;
+}
 
 
+/*
+2.2.2 - Submenu
+-----------------------------------------------------------------*/
 
 #sub-navbar {
 	text-align: center;
@@ -84,16 +105,18 @@ body {
 	padding: 0;
 	display: inline-block; /* this allows parent element to be text-align:center */
 }
-	#sub-navbar li {
-		float: left;
-		margin: 1rem;
-		text-align: center;
-		width: 100px;
-	}
 
- #sub-navbar a {
-	 color: #827bee;
- }
+#sub-navbar li {
+	display: block;
+	float: left;
+	margin: 1rem;
+	text-align: center;
+	width: 100px;
+}
+
+#sub-navbar a {
+	color: #827bee;
+}
 
     .submenu-icon {
 	    -webkit-border-radius: 32px;
@@ -110,7 +133,7 @@ body {
 
 
 /*-----------------------------------------------------------------
-6.0 - Layout
+3.0 - Layout
 -----------------------------------------------------------------*/
 
 #site-header,
@@ -127,18 +150,33 @@ body {
 
 #sub-navbar {
 	background: #4b0aa5;
+	padding: 1em 0;
 }
 
 #site-header {
 	background: #f3f3f4;
 }
 
-#site-footer-content {
+#content-header {
+	padding: 1em 0;
+}
+
+#site-content > div,
+#site-content > section {
+	padding: 1em 0 2em 0;
+}
+
+#site-footer {
 	background: #adacb2;
 }
 
-#site-footer-helplinks {
+#footer-content {
+	padding: 1em 0;
+}
+
+#site-footer-closinglinks {
 	background: #fff;
+	text-align: center;
 }
 
 

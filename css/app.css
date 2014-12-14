@@ -5,7 +5,8 @@ INDICE
 ---------------------------------
 
 1.0	- Type
-
+2.0 - Navigation
+	2.1 - Links
 6.0 - Layout
 
 
@@ -14,7 +15,7 @@ COLOR
 ---------------------------------
 
 Purple			#4b0aa5
-Light purple
+Light purple	#827bee
 Green			#12c4aa
 Dark grey		#717175
 Med grey		#adacb2
@@ -44,7 +45,7 @@ EJ:
 
 body {
 	color: #717175;
-	font: 400 18px/1.5rem 'Ubuntu', Arial, sans-serif;
+	font: 400 110%/1.5rem 'Ubuntu', Arial, sans-serif;
 }
 
 #sub-navbar,
@@ -52,10 +53,59 @@ body {
 	color: #fff;
 }
 
-h1 > a {
-	display: block;
-	width: 100px;
+#sub-navbar li {
+	font-size: .85rem;
 }
+
+
+/*-----------------------------------------------------------------
+2.0 - Navigation
+-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------
+2.2 - Menus
+-----------------------------------------------------------------*/
+
+    .top-bar-section li:not(.has-form) a:not(.button) {
+      background: #fff;
+      color: #12c4aa;
+     }
+
+
+
+#sub-navbar {
+	text-align: center;
+}
+
+#sub-navbar ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: inline-block; /* this allows parent element to be text-align:center */
+}
+	#sub-navbar li {
+		float: left;
+		margin: 1rem;
+		text-align: center;
+		width: 100px;
+	}
+
+ #sub-navbar a {
+	 color: #827bee;
+ }
+
+    .submenu-icon {
+	    -webkit-border-radius: 32px;
+		-moz-border-radius: 32px;
+		border-radius: 32px;
+
+	    background: transparent;
+	    border: 1px solid #827bee;
+	    height: 64px;
+	    margin: 0 auto;
+	    width: 64px;
+    }
+
 
 
 /*-----------------------------------------------------------------

@@ -54,7 +54,8 @@ body {
 }
 
 #sub-navbar li {
-	font-size: .85rem;
+	font-size: .75rem;
+	text-transform: uppercase;
 }
 
 
@@ -128,7 +129,7 @@ body {
 	background: #4b0aa5;
 }
 
-#site-content-header {
+#site-header {
 	background: #f3f3f4;
 }
 

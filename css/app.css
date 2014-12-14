@@ -1,6 +1,61 @@
+/*-----------------------------------------------------------------
+
+---------------------------------
+INDICE
+---------------------------------
+
+1.0	- Type
+6.0 - Layout
+
+
+---------------------------------
+COLOR
+---------------------------------
+
+Purple			#4b0aa5
+Light purple
+Green			#12c4aa
+Dark grey		#717175
+Med grey		#adacb2
+Light grey
+
+---------------------------------
+TYPE
+---------------------------------
+
+Ubuntu
+	Light		300
+	Normal		400
+	Medium		500
+	Bold		700
+
+EJ:
+	font-family: 'Ubuntu', serif;
+	font-style: italic;
+	font-weight: 300;
+
+-----------------------------------------------------------------*/
+
+
+/*-----------------------------------------------------------------
+1.0 - Type
+-----------------------------------------------------------------*/
+
 body {
-	font-family: 'Ubuntu', Arial, sans-serif;
+	color: #717175;
+	font: 400 18px/1.5rem 'Ubuntu', Arial, sans-serif;
 }
+
+#sub-navbar,
+#site-footer-content {
+	color: #fff;
+}
+
+
+
+/*-----------------------------------------------------------------
+6.0 - Layout
+-----------------------------------------------------------------*/
 
 #site-header,
 #site-content,
@@ -8,7 +63,9 @@ body {
 	width:100%;
 }
 
-#top-navbar {
+#top-navbar,
+.top-bar,
+.contain-to-grid {
 	background: #fff;
 }
 
@@ -20,8 +77,14 @@ body {
 	background: #f3f3f4;
 }
 
-#site-footer {
+#site-footer-content {
 	background: #adacb2;
 }
+
+#site-footer-helplinks {
+	background: #fff;
+}
+
+
 
 

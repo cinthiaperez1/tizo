@@ -86,7 +86,7 @@ include('includes/header.php');
 				<div class="medium-8 columns medium-centered">
 
 					<div class="short-info">
-						<p>Archivo Alicia es una plataforma experimental y colaborativa que pone en primer término la perspectiva de la infancia sobre el espacio público. PRUEBA CINTHIA</p>
+						<p>Archivo Alicia es una plataforma experimental y colaborativa que pone en primer término la perspectiva de la infancia sobre el espacio público. </p>
 
 					</div>
 
@@ -96,25 +96,6 @@ include('includes/header.php');
 						<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda.</p>
 					</div>
 
-					<div class="guided-info">
-						<p><strong>Pregunta número dos</strong></p>
-
-						<p>El resto della concluían sayo de velarte, calzas de velludo para las fiestas, con sus pantuflos de lo mesmo, y los días de entresemana se honraba con su vellorí de lo más fino. </p>
-					</div>
-
-
-					<div class="guided-info"></strong></p>
-
-						<p><strong>Pregunta número tres</strong></p>
-
-						<p>Tenía en su casa una ama que pasaba de los cuarenta, y una sobrina que no llegaba a los veinte, y un mozo de campo y plaza, que así ensillaba el rocín como tomaba la podadera.</p>
-					</div>
-
-					<div class="guided-info">
-						<p><strong>Pregunta número cuatro</strong></p>
-
-						<p>Frisaba la edad de nuestro hidalgo con los cincuenta años; era de complexión recia, seco de carnes, enjuto de rostro, gran madrugador y amigo de la caza. Quieren decir que tenía el sobrenombre de Quijada, o Quesada, que e unque, por conjeturas verosímiles, se deja entender que se llamaba Quejana.</p>
-					</div>
 
 
 				</div>

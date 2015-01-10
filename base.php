@@ -12,7 +12,7 @@ include('includes/header.php');
 ?>
 
 
-		<!-- START #site-header: logo, menu, submenu -->
+		<!-- START #site-header: submenu y header del contenido-->
 		<header id="site-header">
 
 

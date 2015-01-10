@@ -8,7 +8,7 @@
 
 		<!-- This is how you would link your custom stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" href="css/m.css">
+		<link rel="stylesheet" href="css/mj.css">
 		<link rel="stylesheet" href="css/c.css">
 
 		<!-- Google fonts -->

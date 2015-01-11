@@ -124,7 +124,6 @@ button.secondary, .button.secondary {
 	-moz-box-shadow: 0px 3px 0px 0px #e2e2e3;
 	box-shadow: 0px 3px 0px 0px #e2e2e3;
 
-    background-color: #f3f3f4;
     color: #333333;
 }
 button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button.secondary:focus {
@@ -134,6 +133,26 @@ button.secondary:hover, button.secondary:focus, .button.secondary:hover, .button
 
 	background-color: #e2e2e3;
     color: #333333;
+}
+button.success, .button.success {
+	-webkit-box-shadow: 0px 3px 0px 0px #756fd7;
+	-moz-box-shadow: 0px 3px 0px 0px #756fd7;
+	box-shadow: 0px 3px 0px 0px #756fd7;
+}
+button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
+	-webkit-box-shadow: 0px 3px 0px 0px #6964c0;
+	-moz-box-shadow: 0px 3px 0px 0px #6964c0;
+	box-shadow: 0px 3px 0px 0px #6964c0;
+}
+button.alert, .button.alert {
+	-webkit-box-shadow: 0px 3px 0px 0px #9e0c0f;
+	-moz-box-shadow: 0px 3px 0px 0px #9e0c0f;
+	box-shadow: 0px 3px 0px 0px #9e0c0f;
+}
+button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus {
+	-webkit-box-shadow: 0px 3px 0px 0px #8b0b0d;
+	-moz-box-shadow: 0px 3px 0px 0px #8b0b0d;
+	box-shadow: 0px 3px 0px 0px #8b0b0d;
 }
 
 

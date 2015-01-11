@@ -27,7 +27,7 @@
 			<div id="site-footer-closinglinks">
 				<div class="row">
 					<div class="small-12 columns">
-						Ayuda y soporte  |  reporte problema | políticas y condiciones
+						<a href="">Ayuda y soporte</a>  |  <a href="">Reporte un problema</a> | <a href="">Políticas y condiciones</a>
 					</div>
 				</div>
 			</div>

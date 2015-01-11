@@ -48,11 +48,11 @@ EJ:
 
 body {
 	color: #717175;
-	font: 400 110%/1.5rem 'Aleo', Arial, sans-serif;
+	font: 400 110%/1.5rem 'Aleo', Helvetica, Arial, sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Ubuntu', Arial, sans-serif;
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 	font-weight: 700;
 }
 
@@ -76,13 +76,27 @@ h1, h2, h3, h4, h5, h6 {
 #sub-navbar li,
 #site-footer-closinglinks,
 #footer-copyright {
-	font-size: .75rem;
+	font-size: .8rem;
 }
 
 /* Uppercase */
 #sub-navbar li,
-#site-footer-closinglinks {
+ {
 	text-transform: uppercase;
+}
+
+/* Ubuntu */
+.top-bar-section ul li > a,
+#site-footer-closinglinks {
+	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
+}
+
+#content-header h2,
+#content-header h3,
+#content-header h4,
+#content-header h5,
+#content-header h6 {
+	color: #717175;
 }
 
 

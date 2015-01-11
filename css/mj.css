@@ -1,3 +1,146 @@
 /*-----------------------------------------------------------------
 CSS de Mari :)
 -----------------------------------------------------------------*/
+
+/*--------INDEX--------*/
+
+/*--MAIN-PHOTO--*/
+
+#home-mainphoto {
+	background-image:url("../img/home.jpg");
+	background-size:cover;
+	height:600px;
+}
+
+#home-mainphoto h2{
+	text-align:center;
+	color:#ffffff;
+	margin-top:30%;
+}
+
+#home-mainphoto p{
+	text-align:center;
+	color:#ffffff;
+}
+
+#home-mainphoto a{
+	text-align:center;
+}
+
+/*--CONTENT-HEADER--*/
+
+#content-header p{
+	text-align:center;
+}
+
+
+#content-header ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+#content-header ul li { 
+	display: inline; 
+}
+
+.home-content-header-icons{
+	display:block;
+	text-align:center;
+	list-style-type: none;
+}
+
+.home-content-header-icons img{
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:2%;
+}
+
+.home-content-header-names{
+	display:block;
+	text-align:center;
+	list-style-type: none;
+}
+
+.home-content-header-names li{
+	margin-left:5%;
+	margin-right:5%;
+	margin-bottom:2%;
+}
+
+
+/*--INTRO-HOME-GALLERY--*/
+
+#intro-project-gallery ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+#intro-project-gallery ul li { 
+	display: inline; 
+}
+
+.intro-gallery p{
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-weight:800;
+	font-size:1.3rem;
+	color:#4b0aa5;
+}
+
+span {
+	font-family: 'Ubuntu', Arial, sans-serif;
+	font-weight:300;
+	font-size:1rem;
+}
+/*--HOME-GALLERY--*/
+
+#home-gallery{
+	
+}
+
+#home-gallery h3{
+	color:#717175;
+	font-size:1.3rem;
+	font-weight:500;
+	margin-bottom:2rem;
+}
+
+#home-gallery h4{
+	color:#717175;
+	font-size:1rem;
+	font-weight:400;
+}
+
+
+.gallery-block-grey {
+	background-color:#f3f3f4;
+	height:10rem/*163.2px*/;
+	width:13.9rem/*222px*/;
+	padding:4%;
+}
+
+
+
+.gallery-block-grey ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.gallery-block-grey ul li{
+	display: inline; 
+	float:right;
+	margin-left:3%;
+	
+}
+
+.gallery-block-grey li:first-child {
+    float:left;
+} 
+
+#page-numbers .current {
+	border-radius:50%;
+
+}

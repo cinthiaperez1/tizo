@@ -15,7 +15,7 @@ CSS de Mari :)
 #home-mainphoto h2{
 	text-align:center;
 	color:#ffffff;
-	margin-top:30%;
+	margin-top:35%;
 }
 
 #home-mainphoto p{
@@ -53,11 +53,11 @@ CSS de Mari :)
 	list-style-type: none;
 }
 
-.home-content-header-icons img{
-	margin-left:5%;
-	margin-right:5%;
-	margin-bottom:2%;
-	display:inline;
+.home-content-header-icons img {
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	display: block;
 }
 
 /*.home-content-header-names{

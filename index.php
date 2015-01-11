@@ -44,7 +44,7 @@ include('includes/header.php');
 
 				<!-- Cambiar esta parte siguiente por la que va en cada caso -->
 				
-				<div class="small-10 medium-8 small-centered columns">
+				<div class="small-8 medium-6 small-centered columns">
 						<p>Entérate como funciona la plataforma ingresando <a 				href="">aquí</a> y así podrás</p>
 						<ul class="home-content-header-icons">
 							<li><img src="img/icons1.png" /></li>
@@ -106,11 +106,11 @@ include('includes/header.php');
 				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
       				<li>
       					<img src="img/projects/1.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Ana Fuentes</h4>
       						<h3>Archivo Alicia</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
@@ -118,11 +118,11 @@ include('includes/header.php');
       				</li>
       				<li>
       					<img src="img/projects/2.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Carla Sabedra</h4>
       						<h3>Pintura y papel</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
@@ -130,11 +130,11 @@ include('includes/header.php');
       				</li>
       				<li>
       					<img src="img/projects/3.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Roberto Casteja</h4>
       						<h3>Creando cuentos</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
@@ -142,11 +142,11 @@ include('includes/header.php');
       				</li>
       				<li>
       					<img src="img/projects/4.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Juan Carrera</h4>
       						<h3>Escuela y colores</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
@@ -154,23 +154,11 @@ include('includes/header.php');
       				</li>
       				<li>
       					<img src="img/projects/5.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Arnoldo Alvaréz</h4>
       						<h3>Dueños de la ciudad</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
-      						</ul>
-      					</div>
-      				</li>
-      				<li>
-      					<img src="img/projects/6.jpg" />
-      					<div class="gallery-block-grey">
-      						<h4>Por Julia Ibarra</h4>
-      						<h3>Innovando arte</h3>
-      						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
@@ -178,23 +166,36 @@ include('includes/header.php');
       				</li>
       				<li>
       					<img src="img/projects/7.jpg" />
-						<div class="gallery-block-grey">
+						<div class="gallery-block-grey clearfix">
       						<h4>Por Ana Coll</h4>
       						<h3>Método de audición</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
       					</div>      				
       				</li>
       				<li>
+      					<img src="img/projects/6.jpg" />
+      					<div class="gallery-block-grey clearfix">
+      						<h4>Por Julia Ibarra</h4>
+      						<h3>Innovando arte</h3>
+      						<ul>
+      							<li><img src="img/icono-colaborador.svg"/></li>
+      							<li><img src="img/icono-mas.svg"/></li>
+      							<li><img src="img/icono-follow.svg"/></li>
+      						</ul>
+      					</div>
+      				</li>
+      				
+      				<li>
       					<img src="img/projects/8.jpg" />
-      					<div class="gallery-block-grey">
+      					<div class="gallery-block-grey clearfix">
       						<h4>Por Pedro Fuentes</h4>
       						<h3>Escultura</h3>
       						<ul>
-      							<li><img src="img/icono+colaborador.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg"/></li>
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>

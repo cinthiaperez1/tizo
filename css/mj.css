@@ -31,6 +31,8 @@ CSS de Mari :)
 
 #content-header p{
 	text-align:center;
+	font-size:1.5rem;
+	line-height:2rem;
 }
 
 
@@ -116,8 +118,8 @@ span {
 
 .gallery-block-grey {
 	background-color:#f3f3f4;
-	height:10rem/*163.2px*/;
-	width:13.9rem/*222px*/;
+	/*height:130%;*/
+	width:100%/*13.9rem-222px*/;
 	padding:4%;
 }
 
@@ -133,6 +135,7 @@ span {
 	display: inline; 
 	float:right;
 	margin-left:3%;
+	margin-bottom:2%;
 	
 }
 

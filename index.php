@@ -5,6 +5,11 @@ tizo
 
 */
 
+/*
+NOTAS MATI:
+Ver lineas 56 y 59
+*/
+
 $page = 'Home'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
@@ -23,7 +28,7 @@ include('includes/header.php');
 						<h2>Conectate. Colabora. Aprende.</h2>
 					</div>
 					<div class="small-8 medium-6 small-centered columns">
-						<p>Tizo es una plataforma digital para profesionales que 
+						<p>Tizo es una plataforma digital para profesionales que
 						buscan difundir y participar de proyectos para la niñez.</p>
 					</div>
 					<div id="home-button" class="small-10 medium-8 small-centered columns">
@@ -43,13 +48,26 @@ include('includes/header.php');
 				---------------------------------------------------------------- -->
 
 				<!-- Cambiar esta parte siguiente por la que va en cada caso -->
-				
+
 				<div class="small-8 medium-6 small-centered columns">
-						<p>Entérate como funciona la plataforma ingresando <a 				href="">aquí</a> y así podrás</p>
+						<p>Entérate como funciona la plataforma ingresando <a href="">aquí</a> y así podrás</p>
 						<ul class="home-content-header-icons">
-							<li><img src="img/icons1.png" />Crear</li>
-							<li><img src="img/icons2.png" />Compartir</li>
-							<li><img src="img/icons3.png" />Colaborar</li>
+							<li>
+								<!-- Las imagenes siempre deben llevar alt="" para ayudar a la accesibilidad -->
+								<img src="img/icons1.png" alt="Crear" />
+
+								<!-- Lo que hice fue agregar span para el texto -->
+								<span class="home-content-header-name">Crear</span>
+							</li>
+							<li>
+								<img src="img/icons2.png" alt="Compartir" />
+								<span class="home-content-header-name">Compartir</span>
+
+							</li>
+							<li>
+								<img src="img/icons3.png" alt="Colaborar" />
+								<span class="home-content-header-name">Colaborar</span>
+							</li>
 						</ul>
 				</div>
 
@@ -89,14 +107,14 @@ include('includes/header.php');
 						</li>
 					</ul>
 				</div>
-					
+
 				</div>
 			</div>
 			<!-- END intro-project-gallery-->
 
 			<!-- START project-gallery -->
 			<div id="home-gallery" class="row">
-				
+
 				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
       				<li>
       					<img src="img/projects/1.jpg" />
@@ -168,7 +186,7 @@ include('includes/header.php');
       							<li><img src="img/icono-mas.svg"/></li>
       							<li><img src="img/icono-follow.svg"/></li>
       						</ul>
-      					</div>      				
+      					</div>
       				</li>
       				<li>
       					<img src="img/projects/6.jpg" />
@@ -182,7 +200,7 @@ include('includes/header.php');
       						</ul>
       					</div>
       				</li>
-      				
+
       				<li>
       					<img src="img/projects/8.jpg" />
       					<div class="gallery-block-grey clearfix">
@@ -201,7 +219,7 @@ include('includes/header.php');
 
 
 			<!--Compaginacion-->
-			
+
 			<div id="page-numbers" class="row">
           		<div class="small-12 medium-12 small-centered columns">
            			<ul class="pagination">

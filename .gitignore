@@ -44,6 +44,7 @@ js/foundation.min.js
 humans.txt
 robots.txt
 css/*
+!css/foundation.css
 !css/style.css
 !css/styleguide.css
 !css/mj.css

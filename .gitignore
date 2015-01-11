@@ -45,5 +45,6 @@ humans.txt
 robots.txt
 css/*
 !css/style.css
+!css/styleguide.css
 !css/mj.css
 !css/c.css

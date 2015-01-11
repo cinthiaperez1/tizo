@@ -1,0 +1,28 @@
+.primary-color {
+	border-top: 40px solid #12c4aa;
+	padding-top: 10px;
+}
+.secondary-color {
+	border-top: 40px solid #adacb2;
+	padding-top: 10px;
+}
+.alert-color {
+	border-top: 40px solid #f04124;
+	padding-top: 10px;
+}
+.success-color {
+	border-top: 40px solid #827bee;
+	padding-top: 10px;
+}
+.bodyfont-color {
+	border-top: 40px solid #717175;
+	padding-top: 10px;
+}
+.headerfont-color {
+	border-top: 40px solid #4b0aa5;
+	padding-top: 10px;
+}
+.altbg-color {
+	border-top: 40px solid #f3f3f4;
+	padding-top: 10px;
+}

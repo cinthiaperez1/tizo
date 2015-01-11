@@ -6,13 +6,17 @@
 		<title>tizō</title>
 		<link rel="stylesheet" href="css/foundation.css" />
 
+
+		<!-- Fontsonts -->
+		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="css/fonts.css">
+
 		<!-- This is how you would link your custom stylesheet -->
 		<link rel="stylesheet" href="css/style.css">
 		<link rel="stylesheet" href="css/mj.css">
 		<link rel="stylesheet" href="css/c.css">
 
-		<!-- Google fonts -->
-		<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700,300italic,400italic,500italic,700italic' rel='stylesheet' type='text/css'>
+
 
 		<script src="js/vendor/modernizr.js"></script>
 	</head>

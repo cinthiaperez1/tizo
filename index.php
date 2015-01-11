@@ -26,8 +26,8 @@ include('includes/header.php');
 						<p>Tizo es una plataforma digital para profesionales que 
 						buscan difundir y participar de proyectos para la niñez.</p>
 					</div>
-					<div class="small-10 medium-8 small-centered columns">
-					<a class="small round button" href="">¡Unéte a nosotros!</a>
+					<div id="home-button" class="small-10 medium-8 small-centered columns">
+						<a class="small round button" href="">¡Unéte a nosotros!</a>
 					</div>
 				</div>
 			</div>
@@ -47,15 +47,9 @@ include('includes/header.php');
 				<div class="small-8 medium-6 small-centered columns">
 						<p>Entérate como funciona la plataforma ingresando <a 				href="">aquí</a> y así podrás</p>
 						<ul class="home-content-header-icons">
-							<li><img src="img/icons1.png" /></li>
-							<li><img src="img/icons2.png" /></li>
-							<li><img src="img/icons3.png" /></li>
-						</ul>
-						
-						<ul class="home-content-header-names">
-							<li>Crear</li>
-							<li>Compartir</li>
-							<li>Colaborar</li>
+							<li><img src="img/icons1.png" />Crear</li>
+							<li><img src="img/icons2.png" />Compartir</li>
+							<li><img src="img/icons3.png" />Colaborar</li>
 						</ul>
 				</div>
 

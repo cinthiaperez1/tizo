@@ -97,7 +97,7 @@ include('includes/header.php');
 					<ul>
 						<li>
 							<div class="intro-gallery">
-								<p>Proyectos <span>(134)</span></p>
+								<p>Proyectos <span class=".span-proyecto">(134)</span></p>
 							</div>
 						</li>
 						<li>
@@ -122,9 +122,9 @@ include('includes/header.php');
       						<h4>Por Ana Fuentes</h4>
       						<h3>Archivo Alicia</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -134,9 +134,9 @@ include('includes/header.php');
       						<h4>Por Carla Sabedra</h4>
       						<h3>Pintura y papel</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -146,9 +146,9 @@ include('includes/header.php');
       						<h4>Por Roberto Casteja</h4>
       						<h3>Creando cuentos</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -158,9 +158,9 @@ include('includes/header.php');
       						<h4>Por Juan Carrera</h4>
       						<h3>Escuela y colores</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -170,9 +170,9 @@ include('includes/header.php');
       						<h4>Por Arnoldo Alvaréz</h4>
       						<h3>Dueños de la ciudad</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -182,9 +182,9 @@ include('includes/header.php');
       						<h4>Por Ana Coll</h4>
       						<h3>Método de audición</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -194,9 +194,9 @@ include('includes/header.php');
       						<h4>Por Julia Ibarra</h4>
       						<h3>Innovando arte</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>
@@ -207,9 +207,9 @@ include('includes/header.php');
       						<h4>Por Pedro Fuentes</h4>
       						<h3>Escultura</h3>
       						<ul>
-      							<li><img src="img/icono-colaborador.svg"/></li>
-      							<li><img src="img/icono-mas.svg"/></li>
-      							<li><img src="img/icono-follow.svg"/></li>
+      							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
       				</li>

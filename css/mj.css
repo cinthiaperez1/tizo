@@ -59,7 +59,6 @@ CSS de Mari :)
 */
 
 
-
 .home-content-header-icons {
 	display:block;
 	text-align:center;
@@ -93,9 +92,9 @@ CSS de Mari :)
 	display:block;
 	text-align:center;
 	list-style-type: none;
-}*/
+}
 
-/*.home-content-header-names li{
+.home-content-header-names li{
 	margin-left:5%;
 	margin-right:5%;
 	margin-bottom:2%;
@@ -124,7 +123,7 @@ CSS de Mari :)
 /* Mari, por fa por fa o definas selectores generales en este doc, esto de abajo afectaría todos los span del sitio!
 	Por favor cambia esto para que sea especifico lo antes posible, hacé el commit (aunque sea solo de esto) y me avisas
 */
-span {
+.span-proyecto {
 	font-family: 'Ubuntu', Arial, sans-serif;
 	font-weight:300;
 	font-size:1rem;
@@ -152,9 +151,8 @@ span {
 
 .gallery-block-grey {
 	background-color:#f3f3f4;
-	/*height:130%;*/
-	width:100%/*13.9rem-222px*/;
-	padding:4%;
+	width:100%;
+	padding:10px;
 }
 
 
@@ -168,8 +166,8 @@ span {
 .gallery-block-grey ul li{
 	display: inline;
 	float:right;
-	margin-left:3%;
-	margin-bottom:2%;
+	margin-left:10px;
+	margin-bottom:10px;
 
 }
 

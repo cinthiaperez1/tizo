@@ -225,6 +225,25 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 2.2.1 - Topbar
 -----------------------------------------------------------------*/
 
+
+.top-bar {
+	height: 55px;
+	line-height: 55px;
+}
+
+.top-bar .name h1 a {
+	padding: 0 15px 10px;
+	width: 110px; /*7rem*/
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #fff;
+    color: #12c4aa;
+    line-height: 55px;
+}
+
+
+
 .home .top-bar, .home .contain-to-grid {
 	background: transparent;
 }
@@ -233,46 +252,38 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 	position: absolute;
 }
 
-.top-bar {
-	height: 55px;
-	line-height: 55px;
-}
 .home .top-bar {
 	height: 100px;
 	line-height: 100px;
 }
 
-.top-bar .name {
-}
+
 .home .top-bar .name {
 	height: 100px;
 }
 
-.top-bar .name h1 {
-}
 .home .top-bar .name h1 {
 	line-height: 90px;
 }
 
-
-.top-bar .name h1 a {
-	padding: 0 15px 10px;
-	width: 110px; /*7rem*/
-}
 .home .top-bar .name h1 a {
 	width: 160px; /*10rem*/
 }
 
-
-.top-bar-section li:not(.has-form) a:not(.button) {
-    background: #fff;
-    color: #12c4aa;
-    line-height: 55px;
+.home .top-bar-section ul li {
+	background: transparent; /* #333333 */
 }
+
+
 .home .top-bar-section li:not(.has-form) a:not(.button) {
+	background: transparent;
 	line-height: 100px;
 }
 
+.top-bar.expanded {
+height: auto;
+background: transparent;
+}
 
 /*
 2.2.2 - Submenu

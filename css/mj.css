@@ -14,13 +14,13 @@ CSS de Mari :)
 #home-mainphoto {
 	background-image:url("../img/home.jpg");
 	background-size:cover;
-	height:600px;
+	height:550px;
 }
 
 #home-mainphoto h2{
 	text-align:center;
 	color:#ffffff;
-	margin-top:35%;
+	margin-top:33%;
 }
 
 #home-mainphoto p{
@@ -30,6 +30,12 @@ CSS de Mari :)
 
 #home-button{
 	text-align:center;
+}
+
+.bigger{
+	font-size:1.3rem;
+	font-weight:500;
+	
 }
 
 /*--CONTENT-HEADER--*/
@@ -127,6 +133,7 @@ CSS de Mari :)
 	font-family: 'Ubuntu', Arial, sans-serif;
 	font-weight:300;
 	font-size:1rem;
+	text-decoration:underline;
 }
 
 /*--HOME-GALLERY--*/
@@ -146,6 +153,7 @@ CSS de Mari :)
 	color:#717175;
 	font-size:1rem;
 	font-weight:400;
+	margin-bottom:-1px;
 }
 
 

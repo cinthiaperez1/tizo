@@ -32,7 +32,7 @@ include('includes/header.php');
 						buscan difundir y participar en proyectos para la niñez.</p>
 					</div>
 					<div id="home-button" class="small-10 medium-8 small-centered columns">
-						<a class="small round button" href="">¡Únete a nosotros!</a>
+						<a class="small round button" href=""><span class="bigger">¡Únete a nosotros!</span></a>
 					</div>
 				</div>
 			</div>

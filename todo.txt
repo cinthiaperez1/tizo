@@ -1,0 +1,13 @@
+HOME
+ if ($logged) {
+ 	//long menu
+ 	
+ } else {
+ 	//home menu
+ }
+ 
+ if ($page='Home') {
+ 	//class="home-menu"
+ } else {
+ 	//no class
+ }

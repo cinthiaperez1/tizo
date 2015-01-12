@@ -170,19 +170,49 @@ include('includes/header.php');
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
-
-											<li>
-												<a class="th" href="../assets/img/examples/earth.jpg">
-													<img src="../assets/img/examples/earth-th-sm.jpg">
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
 
-    <li><a class="th" href="../assets/img/examples/launch.jpg"><img data-caption="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus." src="../assets/img/examples/launch-th-sm.jpg"></a></li>
 
-    <li><a class="th" href="../assets/img/examples/satelite.jpg"><img src="../assets/img/examples/satelite-th-sm.jpg"></a></li>
 
-    <li><a class="th" href="../assets/img/examples/space.jpg"><img data-caption="Integer posuere erat a ante venenatis dapibus posuere velit aliquet." src="../assets/img/examples/space-th-sm.jpg"></a></li>
-  </ul></div></div></div>
+
+										</ul>
+									</div>
+								</div>
+							</div>
 
 						</div>
 					</div>
@@ -194,7 +224,7 @@ include('includes/header.php');
 			<!-- START project-collab -->
 			<div id="project-collab" class="row">
 				<div class="small-12 columns">
-					Colaboradores
+					<h3>Colaboradores</h3>
 				</div>
 			</div>
 			<!-- END project-collab -->

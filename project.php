@@ -139,6 +139,54 @@ include('includes/header.php');
 			<div id="project-gallery" class="row">
 				<div class="medium-12 columns">
 					GAllery
+
+					<div class="row">
+						<div class="small-12 columns">
+
+							<div class="clearing-assembled">
+								<div class="">
+
+									<a href="#" class="clearing-close">×</a>
+
+									<div class="visible-img" style="display: none;">
+										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
+										</div>
+
+										<img src="project-gallery/projectgal-1.jpg" alt="" style="visibility: visible;">
+										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.</p>
+										<a href="#" class="clearing-main-prev disabled">
+											<span></span>
+										</a>
+
+										<a href="#" class="clearing-main-next">
+											<span></span>
+										</a>
+									</div>
+
+									<div class="carousel">
+										<ul class="clearing-thumbs" data-clearing="" style="">
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-1.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-1.jpg">
+												</a>
+											</li>
+
+											<li>
+												<a class="th" href="../assets/img/examples/earth.jpg">
+													<img src="../assets/img/examples/earth-th-sm.jpg">
+												</a>
+											</li>
+
+    <li><a class="th" href="../assets/img/examples/launch.jpg"><img data-caption="Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus." src="../assets/img/examples/launch-th-sm.jpg"></a></li>
+
+    <li><a class="th" href="../assets/img/examples/satelite.jpg"><img src="../assets/img/examples/satelite-th-sm.jpg"></a></li>
+
+    <li><a class="th" href="../assets/img/examples/space.jpg"><img data-caption="Integer posuere erat a ante venenatis dapibus posuere velit aliquet." src="../assets/img/examples/space-th-sm.jpg"></a></li>
+  </ul></div></div></div>
+
+						</div>
+					</div>
+
 				</div>
 			</div>
 			<!-- END project-gallery -->

@@ -93,21 +93,21 @@ include('includes/header.php');
 
 			<!-- START intro-project-gallery -->
 			<div id="intro-project-gallery" class="row">
-				<div class="medium-12 columns medium-centered">
-					<ul>
-						<li>
+				<div class="medium-6 columns centered">
+					
 							<div class="intro-gallery">
 								<p>Proyectos <span class=".span-proyecto">(134)</span></p>
 							</div>
-						</li>
-						<li>
-							<div class="small-3 columns right">
+				</div>
+				
+				<div class="small-12 medium-6 columns">
+					<div class="row collapse">
+							<div class="small-10 columns">
 								<input type="text" placeholder="Ordenar...">
 							</div>
-						</li>
-					</ul>
-				</div>
-
+							<div class="small-2 columns">
+								<a class="button postfix" href="">Go</a>
+							</div>
 				</div>
 			</div>
 			<!-- END intro-project-gallery-->

@@ -46,6 +46,10 @@ CSS de Mari :)
 	line-height:2rem;
 }
 
+#content-header a{
+	text-decoration:underline;
+}
+
 
 /*#content-header ul {
 	margin: 0;
@@ -109,14 +113,8 @@ CSS de Mari :)
 
 /*--INTRO-HOME-GALLERY--*/
 
-#intro-project-gallery ul{
-	margin: 0;
-	padding: 0;
-	list-style-type: none;
-}
-
-#intro-project-gallery ul li {
-	display: inline;
+#intro-project-gallery{
+	margin-top:30px;
 }
 
 .intro-gallery p{
@@ -126,20 +124,17 @@ CSS de Mari :)
 	color:#4b0aa5;
 }
 
-/* Mari, por fa por fa o definas selectores generales en este doc, esto de abajo afectaría todos los span del sitio!
-	Por favor cambia esto para que sea especifico lo antes posible, hacé el commit (aunque sea solo de esto) y me avisas
-*/
+
 .span-proyecto {
 	font-family: 'Ubuntu', Arial, sans-serif;
 	font-weight:300;
 	font-size:1rem;
-	text-decoration:underline;
 }
 
 /*--HOME-GALLERY--*/
 
 #home-gallery{
-
+	margin-top:80px;
 }
 
 #home-gallery h3{

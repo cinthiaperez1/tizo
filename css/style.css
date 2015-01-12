@@ -281,8 +281,8 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 }
 
 .top-bar.expanded {
-height: auto;
-background: transparent;
+	height: auto;
+	background: transparent;
 }
 
 /*

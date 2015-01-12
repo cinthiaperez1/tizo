@@ -4,12 +4,12 @@
 
 	if ($page=='Home') {
 		$logo_url = $logo_url.'home-logo-header.svg';
-		$topbar_class = 'home-topbar';
+		$topbar_class = ' home-topbar';
 	} else {
 		$logo_url = $logo_url.'logo-header.svg';
 	}
 
-	if ($logged_in) {
+	if ( isset($logged_in)) {
 		$topbar_menu = '';
 	} else {
 		$topbar_menu = '';

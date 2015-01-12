@@ -92,7 +92,7 @@ include('includes/header.php');
 			---------------------------------------------------------------- -->
 
 			<!-- START intro-project-gallery -->
-			<div id="intro-project-gallery" class="row">
+			<div id="intro-project-gallery" class="row collapse">
 				<div class="medium-6 columns centered">
 					
 							<div class="intro-gallery">
@@ -100,16 +100,16 @@ include('includes/header.php');
 							</div>
 				</div>
 				
-				<div class="small-12 medium-6 columns">
+				<div id="search-gallery" class="small-12 medium-4 columns">
 					<div class="row collapse">
-							<div class="small-10 columns">
-								<input type="text" placeholder="Ordenar...">
-							</div>
-							<div class="small-2 columns">
-								<a class="button postfix" href="">Go</a>
-							</div>
+						<div class="small-10 columns">
+							<input type="text" placeholder="Ordenar...">
+						</div>
+						<div class="small-2 columns">
+							<a class="button postfix" href="">Go</a>
+						</div>
+					</div>
 				</div>
-			</div>
 			<!-- END intro-project-gallery-->
 
 			<!-- START project-gallery -->

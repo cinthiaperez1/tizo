@@ -124,6 +124,11 @@ CSS de Mari :)
 	color:#4b0aa5;
 }
 
+#search-gallery{
+	text-align:right;
+	float:right;
+}
+
 
 .span-proyecto {
 	font-family: 'Ubuntu', Arial, sans-serif;

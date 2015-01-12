@@ -96,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Ubuntu */
 .top-bar-section ul li > a,
+#sub-navbar,
 #footer-content,
 #site-footer-closinglinks {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
@@ -334,7 +335,7 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 
 }
 .project-pic.large {
-	min-height: 320px;
+	/* min-height: 320px; */
 	width: 100%;
 }
 

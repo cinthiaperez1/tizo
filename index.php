@@ -50,7 +50,7 @@ include('includes/header.php');
 				<!-- Cambiar esta parte siguiente por la que va en cada caso -->
 
 				<div class="small-8 medium-6 small-centered columns">
-						<p>Entérate como funciona la plataforma ingresando <a href="">aquí</a> y así podrás</p>
+						<p>Entérate cómo funciona la plataforma ingresando <a href="">aquí</a> y así podrás</p>
 						<ul class="home-content-header-icons">
 							<li>
 								<!-- Las imagenes siempre deben llevar alt="" para ayudar a la accesibilidad -->
@@ -167,7 +167,7 @@ include('includes/header.php');
       				<li>
       					<img src="img/projects/5.jpg" />
       					<div class="gallery-block-grey clearfix">
-      						<h4>Por Arnoldo Alvaréz</h4>
+      						<h4>Por Arnoldo Álvarez</h4>
       						<h3>Dueños de la ciudad</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>

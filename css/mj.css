@@ -5,6 +5,7 @@ CSS de Mari :)
 /*
 	NOTAS MATI:
 	ver lineas 52, 71, 84, 119 (MUY IMPORTANTE este ultimo!!) :D
+	Martes 13: Ver linea 44!!
 */
 
 /*--------INDEX--------*/
@@ -35,18 +36,24 @@ CSS de Mari :)
 .bigger{
 	font-size:1.3rem;
 	font-weight:500;
-	
+
 }
 
 /*--CONTENT-HEADER--*/
 
-#content-header p{
+/* Mari, por fa acordate de no caerle encima a estilos generales,
+	estas próximas dos declaraciones afectaban todo el sitio.
+	Hoy le di clase .home a todo el <body> tuyo, en este caso lo arregle
+	agregandola, usala por fis :)
+ */
+
+.home #content-header p {
 	text-align:center;
 	font-size:1.5rem;
 	line-height:2rem;
 }
 
-#content-header a{
+.home #content-header a{
 	text-decoration:underline;
 }
 

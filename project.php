@@ -138,7 +138,7 @@ include('includes/header.php');
 			<!-- START project-gallery -->
 			<div id="project-gallery" class="row">
 				<div class="medium-12 columns">
-					GAllery
+					<h3>Galería multimedia</h3>
 
 					<div class="row">
 						<div class="small-12 columns">
@@ -152,7 +152,7 @@ include('includes/header.php');
 										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
 										</div>
 
-										<img src="project-gallery/projectgal-1.jpg" alt="" style="visibility: visible;">
+										<img src="project-gallery/projectgal-01.jpg" alt="" style="visibility: visible;">
 										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.</p>
 										<a href="#" class="clearing-main-prev disabled">
 											<span></span>
@@ -166,8 +166,8 @@ include('includes/header.php');
 									<div class="carousel">
 										<ul class="clearing-thumbs" data-clearing="" style="">
 											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-1.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-1.jpg">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
 

@@ -64,8 +64,11 @@ Clases útiles
 .whitetxt
 Texto y links blancos. Se aplica al contenedor
 
-.greytxt
-Texto y links grises. Se aplica al contenedor
+.dkgreytxt
+Texto y links gris #717175. Se aplica al contenedor
 
 .clearfix
 Arregla el clear del contenedor de floats. Se aplica al contenedor
+
+.ubuntutxt
+Texto en ubuntu

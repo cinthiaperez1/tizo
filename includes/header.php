@@ -3,10 +3,10 @@
 	$topbar_class = '';
 
 	if ($page=='Home') {
-		$logo_url = $logo_url.'home-logo-header.svg';
-		$topbar_class = ' home-topbar';
+		$logo_url = $logo_url.'logo-tizo-blanco-alt.svg';
+		$topbar_class = ' class="home"';
 	} else {
-		$logo_url = $logo_url.'logo-header.svg';
+		$logo_url = $logo_url.'logo-tizo-verde.svg';
 	}
 
 	if ( isset($logged_in)) {
@@ -36,10 +36,10 @@
 		<script src="js/vendor/modernizr.js"></script>
 	</head>
 
-	<body>
+	<body<?php echo $topbar_class; ?>>
 
 		<div class="contain-to-grid header-section">
-			<nav class="top-bar<?php echo $topbar_class; ?>" data-topbar role="navigation">
+			<nav class="top-bar" data-topbar role="navigation">
 				<ul class="title-area">
 					<li class="name">
 						<h1><a href="index.php"><img src="<?php echo $logo_url; ?>" alt="tizō" width="80" /></a></h1>

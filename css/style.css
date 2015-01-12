@@ -225,6 +225,31 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 2.2.1 - Topbar
 -----------------------------------------------------------------*/
 
+.home .top-bar, .home .contain-to-grid {
+	background: transparent;
+}
+
+.home .contain-to-grid {
+	position: absolute;
+}
+
+.home .top-bar {
+	height: 90px;
+	line-height: 90px;
+}
+
+.home .top-bar .name {
+	height: 90px;
+}
+
+.home .top-bar .name h1 {
+	line-height: 90px;
+}
+
+.top-bar .name h1 a {
+}
+
+
 .top-bar-section li:not(.has-form) a:not(.button) {
     background: #fff;
     color: #12c4aa;

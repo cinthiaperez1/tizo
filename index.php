@@ -123,7 +123,7 @@ include('includes/header.php');
       						<h3>Archivo Alicia</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -135,7 +135,7 @@ include('includes/header.php');
       						<h3>Pintura y papel</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -147,7 +147,7 @@ include('includes/header.php');
       						<h3>Creando cuentos</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -159,7 +159,7 @@ include('includes/header.php');
       						<h3>Escuela y colores</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -171,7 +171,7 @@ include('includes/header.php');
       						<h3>Dueños de la ciudad</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -183,7 +183,7 @@ include('includes/header.php');
       						<h3>Método de audición</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -195,7 +195,7 @@ include('includes/header.php');
       						<h3>Innovando arte</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>
@@ -208,7 +208,7 @@ include('includes/header.php');
       						<h3>Escultura</h3>
       						<ul>
       							<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
-      							<li><img src="img/icono-mas.svg" alt="Ver más"/></li>
+      							<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
       							<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
       						</ul>
       					</div>

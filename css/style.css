@@ -5,8 +5,10 @@ INDICE
 ---------------------------------
 
 1.0	- Type
+	1.1 Text links
+	1.2 Modifications/exceptions
 2.0 - Navigation
-	2.1 - Links
+	2.1 - Buttons
 	2.2 - Menus
 		2.2.1 - Topbar
 		2.2.2 - Submenu
@@ -66,6 +68,14 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+/*-----------------------------------------------------------------
+1.1 - Text links
+-----------------------------------------------------------------*/
+
+/*-----------------------------------------------------------------
+1.1 - Modifications/exceptions
+-----------------------------------------------------------------*/
+
 /* Larger */
 .short-info p {
 	font-size: 1.5rem;
@@ -80,23 +90,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Uppercase */
-#sub-navbar li,
- {
+#sub-navbar li {
 	text-transform: uppercase;
 }
 
 /* Ubuntu */
 .top-bar-section ul li > a,
+#footer-content,
 #site-footer-closinglinks {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
+
+
+/* Dark grey */
 #content-header h2,
 #content-header h3,
 #content-header h4,
 #content-header h5,
-#content-header h6 {
-	color: #717175;
+#content-header h6,
+#site-footer-closinglinks a {
+	color: #727275;
+}
+
+#site-footer-closinglinks a:hover,
+#site-footer-closinglinks a:focus {
+	color: #424244;
+}
+
+/* White */
+.whitetxt,
+.whitetxt a,
+#footer-content,
+#footer-content a,
+#footer-content h2,
+#footer-content h3,
+#footer-content h4,
+#footer-content h5,
+#footer-content h6 {
+	color: #fff;
+}
+
+.whitetxt a:hover,
+.whitetxt a:focus,
+#footer-content a:hover,
+#footer-content a:focus {
+    color: #e3e3e4;
 }
 
 
@@ -104,7 +143,7 @@ h1, h2, h3, h4, h5, h6 {
 2.0 - Navigation
 -----------------------------------------------------------------*/
 /*-----------------------------------------------------------------
-2.1 - Links
+2.1 - Buttons
 -----------------------------------------------------------------*/
 
 button, .button {
@@ -233,7 +272,8 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 
 #site-header,
 #site-content,
-#site-footer {
+#site-footer,
+#site-footer-closinglinks {
 	width:100%;
 }
 
@@ -269,9 +309,22 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 	padding: 1rem 0;
 }
 
+	#footer-content ul {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+
 #site-footer-closinglinks {
 	background: #fff;
+	padding: 1em 0;
 	text-align: center;
+}
+
+.footer-logo {
+	margin: 0 auto;
+	max-width:180px;
+	width:75%;
 }
 
 

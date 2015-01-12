@@ -25,14 +25,14 @@ include('includes/header.php');
 			<div id="home-mainphoto">
 				<div class="row">
 					<div class="small-10 medium-8 small-centered columns">
-						<h2>Conectate. Colabora. Aprende.</h2>
+						<h2>Conéctate. Colabora. Aprende.</h2>
 					</div>
 					<div class="small-8 medium-6 small-centered columns">
 						<p>Tizo es una plataforma digital para profesionales que
-						buscan difundir y participar de proyectos para la niñez.</p>
+						buscan difundir y participar en proyectos para la niñez.</p>
 					</div>
 					<div id="home-button" class="small-10 medium-8 small-centered columns">
-						<a class="small round button" href="">¡Unéte a nosotros!</a>
+						<a class="small round button" href="">¡Únete a nosotros!</a>
 					</div>
 				</div>
 			</div>

@@ -1,13 +1,8 @@
-HOME
- if ($logged) {
- 	//long menu
- 	
- } else {
- 	//home menu
- }
- 
- if ($page='Home') {
- 	//class="home-menu"
- } else {
- 	//no class
- }
+TOPBAR
+
+menu when small/medium
+search
+
+PROJECT
+project-nav: .current
+COlaboradores -> Carousel: https://github.com/kenwheeler/slick/

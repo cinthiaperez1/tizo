@@ -23,38 +23,7 @@ include('includes/header.php');
 
 				<div class="row">
 
-					<ul id="project-nav">
-						<li>
-							<a href="" class="project-link">
-								<div class="submenu-icon"></div>
-								Proyecto
-							</a>
-						</li>
-						<li>
-							<a href="" class="project-link">
-								<div class="submenu-icon"></div>
-								Actividad
-							</a>
-						</li>
-						<li>
-							<a href="" class="project-link">
-								<div class="submenu-icon"></div>
-								Colaboración
-							</a>
-						</li>
-						<li>
-							<a href="" class="project-link">
-								<div class="submenu-icon"></div>
-								Comentarios
-							</a>
-						</li>
-						<li>
-							<a href="" class="project-link">
-								<div class="submenu-icon"></div>
-								Editar
-							</a>
-						</li>
-					</ul>
+					<?php include('includes/project-nav.php'); ?>
 
 				</div>
 
@@ -65,7 +34,7 @@ include('includes/header.php');
 
 				<!-- START content-header -->
 
-				<div id="content-header" class="row">
+				<div id="content-header" class="row project-header">
 
 
 					<!-- ----------------------------------------------------------------
@@ -80,12 +49,13 @@ include('includes/header.php');
 						</div>
 					</div>
 					<div class="medium-8 columns">
-						<h2>Archivo Alicia</h2>
-						<ul>
-							<li>Proyecto en curso</li>
-							<li>María Muñoz</li>
-							<li>Barcelona</li>
-							<li>espacio urbano</li>
+						<h2 class="project-name">Archivo Alicia <a href="http://arxiualicia.com" class="project-url">.</a></h2>
+						<span class="active-txt">Proyecto activo</span>
+
+						<ul class="project-meta">
+							<li class="project-author"><a href="">María Muñoz</a></li>
+							<li class="project-place">Barcelona</li>
+							<li class="project-cat"><a href=""><span class="round label">Espacio urbano</span></a></li>
 						</ul>
 					</div>
 
@@ -105,7 +75,7 @@ include('includes/header.php');
 		<!-- START site-content -->
 		<!-- Dentro de #site-content va el contenido principal -->
 
-		<div id="site-content">
+		<div id="site-content" class="project-content">
 
 
 			<!-- ----------------------------------------------------------------
@@ -118,7 +88,7 @@ include('includes/header.php');
 			<div id="project-main" class="row">
 				<div class="medium-8 columns medium-centered">
 
-					<div class="short-info">
+					<div class="project-summary">
 						<p>Archivo Alicia es una plataforma experimental y colaborativa que pone en primer término la perspectiva de la infancia sobre el espacio público. </p>
 
 					</div>
@@ -164,10 +134,15 @@ include('includes/header.php');
 									</div>
 
 									<div class="carousel">
-										<ul class="clearing-thumbs" data-clearing="" style="">
+										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
 											<li class="visible">
 												<a class="th" href="project-gallery/projectgal-01.jpg">
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-02.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-02.jpg">
 												</a>
 											</li>
 											<li class="visible">
@@ -200,12 +175,6 @@ include('includes/header.php');
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-
 
 
 
@@ -216,7 +185,7 @@ include('includes/header.php');
 
 						</div>
 					</div>
-
+					<p class="text-center"><a href="" class="button">Ver más</a></p>
 				</div>
 			</div>
 			<!-- END project-gallery -->

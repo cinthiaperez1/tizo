@@ -64,9 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.short-info p {
-	font-weight: 300;
-}
+
 
 /*-----------------------------------------------------------------
 1.1 - Text links
@@ -77,7 +75,7 @@ h1, h2, h3, h4, h5, h6 {
 -----------------------------------------------------------------*/
 
 /* Larger */
-.short-info p {
+.project-summary p {
 	font-size: 1.5rem;
 }
 
@@ -90,20 +88,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Uppercase */
-#sub-navbar li {
+/* #sub-navbar li */ {
 	text-transform: uppercase;
 }
 
 /* Ubuntu */
 .ubuntutxt,
-.top-bar-section ul li > a,
+.top-bar ul li > a,
 #sub-navbar,
 #footer-content,
 #site-footer-closinglinks {
 	font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
 }
 
-
+/* Aleo */
+.aleotxt,
+.label {
+	font-family: 'Aleo', Helvetica, Arial, sans-serif;
+}
 
 /* Dark grey */
 .dkgreytxt,
@@ -124,9 +126,16 @@ h1, h2, h3, h4, h5, h6 {
 	color: #424244;
 }
 
+/* Green */
+.top-bar-section li:not(.has-form) a:not(.button) {
+    color: #12c4aa;
+}
+
 /* White */
 .whitetxt,
 .whitetxt a,
+.home .top-bar ul li,
+.home .top-bar-section li:not(.has-form) a:not(.button),
 #footer-content,
 #footer-content a,
 #footer-content h2,
@@ -139,6 +148,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .whitetxt a:hover,
 .whitetxt a:focus,
+.home .top-bar-section li:not(.has-form) a:not(.button):hover,
+.home .top-bar-section li:not(.has-form) a:not(.button):focus,
 #footer-content a:hover,
 #footer-content a:focus {
     color: #e3e3e4;
@@ -238,9 +249,9 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 
 .top-bar-section li:not(.has-form) a:not(.button) {
     background: #fff;
-    color: #12c4aa;
     line-height: 55px;
 }
+
 
 
 
@@ -401,6 +412,27 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 .project-pic.large {
 	/* min-height: 320px; */
 	width: 100%;
+}
+
+.project-name {
+	margin-top: 1rem;
+	margin-bottom: 0;
+	line-height: 1em;
+}
+
+.project-meta {
+	border-top: 1px solid #adacb2;
+	list-style: none;
+	margin: 1rem 0 0 0;
+	padding:1rem 0 0 0;
+}
+
+#project-main {
+	margin-top: 1rem;
+}
+
+.project-summary {
+	margin: 2rem 0 3rem;
 }
 
 

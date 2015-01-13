@@ -96,11 +96,16 @@ include('includes/header.php');
 				<div class="small-12 columns">
 
 					<div id="intro-project-gallery" class="row">
-						<div class="medium-6 columns">
+						<div class="medium-8 large-9 columns">
 							<h3>Proyectos (134)</h3>
 						</div>
-						<div class="medium-6 columns">
-							Filtro
+						<div class="medium-4 large-3 columns">
+							<select class="order-projects">
+								<option>Ordenar por</option>
+								<option value="popular">Más seguidos</option>
+								<option value="activity">Actividad reciente</option>
+								<option value="collab">Buscan colaboradores</option>
+							</select>
 						</div>
 					</div>
 

@@ -1,0 +1,12 @@
+Hola! Comentarios:
+
+CSS:
+* Linea 129: el bold es 700, no 800
+* Linea 148: no te parece que se vería mejor sin ese margen tan grande antes de empezar los proyectos?
+
+HTML:
+* Acordate de poner alt="DESCRIPCION" para todas las imágenes
+* El problema con la galería tenía varias partes:
+	- Faltaba cerrar un div.row
+	- El .collapse alrededor del subtitulo no tenía razón de ser, pero el siguiente punto es lo que hacia parecer que sí se necesitaba
+	- El block-grid no puede ir directamente dentro de .row, tiene que haber .column antes

@@ -91,15 +91,71 @@ include('includes/header.php');
 			luego cambiar contenido por el apropiado
 			---------------------------------------------------------------- -->
 
-			<!-- START intro-project-gallery -->
-			<div id="intro-project-gallery" class="row collapse">
-				<div class="medium-6 columns centered">
-					
-							<div class="intro-gallery">
-								<p>Proyectos <span class=".span-proyecto">(134)</span></p>
-							</div>
+			<!-- START MATI intro-project-gallery -->
+			<div id="home-project-gallery" class="row">
+				<div class="small-12 columns">
+
+					<div id="intro-project-gallery" class="row">
+						<div class="medium-6 columns">
+							<h3>Proyectos (134)</h3>
+						</div>
+						<div class="medium-6 columns">
+							Filtro
+						</div>
+					</div>
+
+					<!-- START project-gallery -->
+					<div id="home-gallery" class="row">
+						<div class="small-12 columns">
+
+							<ul class="medium-block-grid-3 large-block-grid-4 projects"><!-- .projects es para la cortina con jQuery -->
+								<li>
+									<div class="overlay"><!-- Esto es para hacer después la cortina con jQuery -->
+										<img src="img/projects/1.jpg" />
+									</div>
+									<div class="gallery-block-grey clearfix">
+										<h4>Por Ana Fuentes</h4>
+										<h3><a href="project.php">Archivo Alicia ICONO</a></h3>
+										<ul>
+											<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+											<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+											<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      									</ul>
+      								</div>
+	  							</li>
+	  							<li>
+	  								<div class="overlay"><!-- Esto es para hacer después la cortina con jQuery -->
+										<img src="img/projects/2.jpg" />
+	  								</div>
+	  								<div class="gallery-block-grey clearfix">
+	  									<h4>Por Carla Sabedra</h4>
+	  									<h3><a href="project.php">Pintura y papel ICONO</a></h3>
+	  									<ul>
+	  										<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+	  										<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+	  										<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      									</ul>
+      								</div>
+	  							</li>
+	  						</ul>
+
+						</div>
+					</div>
+
 				</div>
-				
+			</div>
+
+
+
+			<!-- START intro-project-gallery -->
+			<div id="intro-project-gallery" class="row collapse"><!-- A este nivel el row collapse es lo que hace que sea a morir -->
+				<div class="medium-6 columns centered">
+
+					<div class="intro-gallery">
+							<p>Proyectos <span class=".span-proyecto">(134)</span></p>
+					</div>
+				</div>
+
 				<div id="search-gallery" class="small-12 medium-4 columns">
 					<div class="row collapse">
 						<div class="small-10 columns">
@@ -110,11 +166,16 @@ include('includes/header.php');
 						</div>
 					</div>
 				</div>
+
+			<!-- Este cierre de div faltaba -->
+			</div>
+
 			<!-- END intro-project-gallery-->
 
 			<!-- START project-gallery -->
 			<div id="home-gallery" class="row">
 
+				<!-- Aqui falta el div de la columna -->
 				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
       				<li>
       					<img src="img/projects/1.jpg" />

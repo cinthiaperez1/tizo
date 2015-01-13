@@ -10,3 +10,12 @@ HTML:
 	- Faltaba cerrar un div.row
 	- El .collapse alrededor del subtitulo no tenía razón de ser, pero el siguiente punto es lo que hacia parecer que sí se necesitaba
 	- El block-grid no puede ir directamente dentro de .row, tiene que haber .column antes
+* Esta parte:
+
+					<div class="intro-gallery">
+							<p>Proyectos <span class=".span-proyecto">(134)</span></p>
+					</div>
+					
+  Es cuestión de semántica: es un titular, por lo que el tag apropiado es algún header
+  (yo puse <h3>); no debe ser un párrafo dentro de un div con un clase con estilo 
+  de encabezado (a esto le llaman "divitis" ;) ).

@@ -189,6 +189,21 @@ button:hover, button:focus, .button:hover, .button:focus {
     color: #fff;
 }
 
+#home-button .button {
+	-webkit-box-shadow: 0px 3px 0px 0px #0fa892;
+	-moz-box-shadow: 0px 3px 0px 0px #0fa892;
+	box-shadow: 0px 3px 0px 0px #0fa892;
+}
+
+#home-button .button:hover, #home-button .button:focus {
+	-webkit-box-shadow: 0px 3px 0px 0px #0b957e;
+	-moz-box-shadow: 0px 3px 0px 0px #0b957e;
+	box-shadow: 0px 3px 0px 0px #0b957e;
+
+    background-color: #0fa892;
+    color: #fff;
+}
+
 button.secondary, .button.secondary {
 	-webkit-box-shadow: 0px 3px 0px 0px #e2e2e3;
 	-moz-box-shadow: 0px 3px 0px 0px #e2e2e3;
@@ -402,7 +417,6 @@ button.alert:hover, button.alert:focus, .button.alert:hover, .button.alert:focus
 	max-width:180px;
 	width:75%;
 }
-
 
 
 .project-pic {

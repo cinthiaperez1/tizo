@@ -157,7 +157,7 @@ include('includes/header.php');
 				<div class="medium-6 columns centered">
 
 					<div class="intro-gallery">
-							<p>Proyectos <span class=".span-proyecto">(134)</span></p>
+							<h3>Proyectos <span class=".span-proyecto">(134)</span></h3>
 					</div>
 				</div>
 

@@ -142,6 +142,93 @@ include('includes/header.php');
       									</ul>
       								</div>
 	  							</li>
+	  							
+	  							<li>
+	  								<div class="overlay">
+      									<img src="img/projects/3.jpg" alt="Creando cuentos" />
+      								</div>
+      								<div class="gallery-block-grey clearfix">
+      									<h4>Por Roberto Casteja</h4>
+      									<h3><a href="project.php">Creando cuentos</a></h3>
+      									<ul>
+      										<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      										<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      										<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      									</ul>
+      								</div>
+      						</li>
+      						
+      						<li>
+      							<div class="overlay">
+      								<img src="img/projects/4.jpg" alt="Escuela y colores"/>
+      							</div>
+      							<div class="gallery-block-grey clearfix">
+      								<h4>Por Juan Carrera</h4>
+      								<h3>Escuela y colores</h3>
+      								<ul>
+      									<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      									<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      									<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      								</ul>
+      							</div>
+      						</li>
+      						<li>
+      						<div class="overlay">
+      							<img src="img/projects/5.jpg" alt="Dueños de la ciudad" />
+      						</div>
+      						<div class="gallery-block-grey clearfix">
+      							<h4>Por Arnoldo Álvarez</h4>
+      							<h3>Dueños de la ciudad</h3>
+      							<ul>
+      								<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      								<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      								<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      							</ul>
+      						</div>
+      					</li>
+      					<li>
+      						<div class="overlay">
+      							<img src="img/projects/7.jpg" alt="Método de audición"/>
+      						</div>
+							<div class="gallery-block-grey clearfix">
+      							<h4>Por Ana Coll</h4>
+      							<h3>Método de audición</h3>
+      							<ul>
+      								<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      								<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      								<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      							</ul>
+      						</div>
+      					</li>
+      					<li>
+      						<div class="overlay">
+      							<img src="img/projects/6.jpg" alt="Innovando arte"/>
+      						</div>
+      						<div class="gallery-block-grey clearfix">
+      							<h4>Por Julia Ibarra</h4>
+      							<h3>Innovando arte</h3>
+      							<ul>
+      								<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      								<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      								<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      							</ul>
+      						</div>
+      					</li>
+      					<li>
+      						<div class="overlay">
+      							<img src="img/projects/8.jpg" alt="Escultura"/>
+      						</div>
+      						<div class="gallery-block-grey clearfix">
+      							<h4>Por Pedro Fuentes</h4>
+      							<h3>Escultura</h3>
+      							<ul>
+      								<li><img src="img/icono-colaborador.svg" alt="Colaborar"/></li>
+      								<li><a href="project.php"><img src="img/icono-mas.svg" alt="Ver más"/></a></li>
+      								<li><img src="img/icono-follow.svg" alt="Seguir"/></li>
+      							</ul>
+      						</div>
+      					</li>
+	  							
 	  						</ul>
 
 						</div>
@@ -183,7 +270,7 @@ include('includes/header.php');
 				<!-- Aqui falta el div de la columna -->
 				<ul class="small-block-grid-2 medium-block-grid-3 large-block-grid-4">
       				<li>
-      					<img src="img/projects/1.jpg" />
+      					<img src="img/projects/1.jpg" alt="Archivo Alicia"/>
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Ana Fuentes</h4>
       						<h3>Archivo Alicia</h3>
@@ -195,7 +282,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/2.jpg" />
+      					<img src="img/projects/2.jpg" alt="Pintura y papel"/>
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Carla Sabedra</h4>
       						<h3>Pintura y papel</h3>
@@ -207,7 +294,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/3.jpg" />
+      					<img src="img/projects/3.jpg" alt="Creando cuentos" />
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Roberto Casteja</h4>
       						<h3>Creando cuentos</h3>
@@ -219,7 +306,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/4.jpg" />
+      					<img src="img/projects/4.jpg" alt="Escuela y colores"/>
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Juan Carrera</h4>
       						<h3>Escuela y colores</h3>
@@ -231,7 +318,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/5.jpg" />
+      					<img src="img/projects/5.jpg" alt="Dueños de la ciudad" />
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Arnoldo Álvarez</h4>
       						<h3>Dueños de la ciudad</h3>
@@ -243,7 +330,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/7.jpg" />
+      					<img src="img/projects/7.jpg" alt="Método de audición"/>
 						<div class="gallery-block-grey clearfix">
       						<h4>Por Ana Coll</h4>
       						<h3>Método de audición</h3>
@@ -255,7 +342,7 @@ include('includes/header.php');
       					</div>
       				</li>
       				<li>
-      					<img src="img/projects/6.jpg" />
+      					<img src="img/projects/6.jpg" alt="Innovando arte"/>
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Julia Ibarra</h4>
       						<h3>Innovando arte</h3>
@@ -268,7 +355,7 @@ include('includes/header.php');
       				</li>
 
       				<li>
-      					<img src="img/projects/8.jpg" />
+      					<img src="img/projects/8.jpg" alt="Escultura"/>
       					<div class="gallery-block-grey clearfix">
       						<h4>Por Pedro Fuentes</h4>
       						<h3>Escultura</h3>

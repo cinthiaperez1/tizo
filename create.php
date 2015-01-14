@@ -86,6 +86,16 @@ include('includes/header.php');
 
 							<div class="row">
 								<div class="large-3 column">
+									<label>¿Mi proyecto está activo actualmente?</label>
+								</div>
+								<div class="large-9 column">
+									<input type="radio" name="is-active" value="Yes" id="active-yes" checked><label for="active-yes">Sí</label>
+									<input type="radio" name="is-active" value="No" id="active-no"><label for="active-no">No</label>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="large-3 column">
 									<label>Imagen principal</label>
 								</div>
 								<div class="large-9 column">
@@ -114,21 +124,70 @@ include('includes/header.php');
 									<label>¿Quiero encontrar colaboradores?</label>
 								</div>
 								<div class="large-9 column">
-									<input type="radio" name="find-contributors" value="Yes" id="find-yes" checked><label for="pokemonRed">Sí</label>
-									<input type="radio" name="find-contributors" value="No" id="find-no"><label for="pokemonBlue">No</label>
+									<input type="radio" name="find-contributors" value="Yes" id="find-yes" checked><label for="find-yes">Sí</label>
+									<input type="radio" name="find-contributors" value="No" id="find-no"><label for="find-no">No</label>
 								</div>
 							</div>
 
 							<div class="row">
 								<div class="large-3 column">
-									<label>Imagen principal</label>
+									<label>Tipo de colaboración que busco</label>
 								</div>
 								<div class="large-9 column">
-									SUBIR IMAGEN
+									<input name="contribute-type" id="contribute-time" type="checkbox"><label for="contribute-time">Tiempo (quiero ser voluntario)</label><br />
+									<input name="contribute-type" id="contribute-materials" type="checkbox"><label for="contribute-materials">Materiales</label><br />
+									<input name="contribute-type" id="contribute-knowledge" type="checkbox"><label for="contribute-knowledge">Conocimiento</label><br />
+									<input name="contribute-type" id="contribute-funds" type="checkbox"><label for="contribute-funds">Fondos</label><br />
+									<input name="contribute-type" id="contribute-other" type="checkbox"><label for="contribute-other">Otro (describir abajo)</label><br />
+									<input type="text" name="contribute-other-type" id="contribute-other-type" placeholder="Cómo puedo colaborar con el proyecto" />
+
+
+
 								</div>
 							</div>
 
 						</fieldset>
+
+						<fieldset>
+							<legend>Más detalles</legend>
+
+							<div class="row">
+								<div class="large-3 column">
+									<label>Pregunta 1</label>
+								</div>
+								<div class="large-9 column">
+									<textarea name="" id="" placeholder=""></textarea>
+								</div>
+							</div>
+
+							<div class="row">
+								<div class="large-12 column">
+									<label>Pregunta 1</label>
+
+									<textarea name="" id="" placeholder=""></textarea>
+								</div>
+							</div>
+
+						</fieldset>
+
+						<fieldset>
+							<legend>Galería</legend>
+
+							<div class="row">
+								<div class="large-12 column">
+									Subir archivos
+								</div>
+							</div>
+
+						</fieldset>
+
+						<div class="row">
+							<div class="small-12 column">
+								<button type=submit name="create-submit" id="create-submit">Crear proyecto</button>
+								<button class="secondary" type=submit name="create-draft-submit" id="create-draft-submit">Guardar borrador</button>
+							</div>
+						</div>
+
 					</form>
 
 

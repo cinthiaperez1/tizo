@@ -53,9 +53,9 @@
 					<!-- Right Nav Section -->
 					<ul class="right">
 						<!-- <li class="active"><a href="#">Mis proyectos</a></li> -->
-						<li><a href="#">Dashboard</a><!-- <a href="">+</a> --></li>
-						<li><a href="#">Crear proyecto</a></li>
-						<li><a href="#">Mi perfil</a></li>
+						<li><a href="control-panel.php">Panel de control</a><!-- <a href="">+</a> --></li>
+						<li><a href="create.php">Crear proyecto</a></li>
+						<li><a href="profile.php">Mi perfil</a></li>
     				</ul>
 
 				</section>

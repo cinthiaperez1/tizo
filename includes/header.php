@@ -22,6 +22,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>tizō | <?php echo $page; ?></title>
 		<link rel="stylesheet" href="css/foundation.css" />
+		<link rel="stylesheet" href="css/normalize.css" />
 
 
 		<!-- Fonts -->

@@ -30,12 +30,12 @@ include('includes/header.php');
 
 					<!-- Cambiar esta parte siguiente por la que va en cada caso -->
 					<div class="medium-4 columns">
-						<div class="project-pic large">
-							<img src="img/project-main.jpg" alt="Archivo Alicia" />
+						<div class="user-pic large">
+							<img src="img/user-main.jpg" alt="Archivo Alicia" />
 						</div>
 					</div>
 					<div class="medium-8 columns">
-						<h2 class="project-name">Archivo Alicia <a href="http://arxiualicia.com" class="project-url">.</a></h2>
+						<h2 class="user-name">Archivo Alicia <a href="http://arxiualicia.com" class="project-url">.</a></h2>
 						<span class="active-txt">Proyecto activo</span>
 
 						<ul class="project-meta">

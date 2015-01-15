@@ -1,11 +1,11 @@
 <?php
 /*
 tizo
-[PROJECT]
+[USER]
 
 */
 
-$page = 'Project'; //Por ejemplo 'home', 'userprofile', etc
+$page = 'User'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 

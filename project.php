@@ -16,20 +16,7 @@ include('includes/header.php');
 		<header id="site-header">
 
 
-			<!-- START sub-navbar: submenu -->
-			<!-- #sub-navbar es la barra azul, quitar si no es necesaria -->
-
-			<div id="sub-navbar">
-
-				<div class="row">
-
-					<?php include('includes/project-nav.php'); ?>
-
-				</div>
-
-			</div>
-			<!-- END sub-navbar -->
-
+			
 
 
 				<!-- START content-header -->

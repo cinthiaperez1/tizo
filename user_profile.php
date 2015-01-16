@@ -1,11 +1,11 @@
 <?php
 /*
 tizo
-[PROJECT]
+[USER]
 
 */
 
-$page = 'Project'; //Por ejemplo 'home', 'userprofile', etc
+$page = 'User'; //Por ejemplo 'home', 'userprofile', etc
 
 include('includes/header.php');
 
@@ -31,19 +31,24 @@ include('includes/header.php');
 
 					<!-- Cambiar esta parte siguiente por la que va en cada caso -->
 					<div class="medium-4 columns">
-						<div class="project-pic large">
-							<img src="img/project-main.jpg" alt="Archivo Alicia" />
+						<div class="user-pic large">
+							<img src="img/project-main.jpg" alt="Archivo Alicia" /> <!--Aqui dentro va la foto del user-->
 						</div>
 					</div>
 					<div class="medium-8 columns">
-						<h2 class="project-name">Archivo Alicia <a href="http://arxiualicia.com" class="project-url">.</a></h2>
-						<span class="active-txt">Proyecto activo</span>
-
+						<h2 class="user-name">Natalia Gisele Hayquel</h2>
+						
 						<ul class="project-meta">
-							<li class="project-author"><a href="">María Muñoz</a></li>
-							<li class="project-place">Barcelona</li>
-							<li class="project-cat"><a href=""><span class="round label">Espacio urbano</span></a></li>
+							<li class="user-name">Profesora de primaria</li>
+							<li class="user-place">Barcelona - España</li>
+							<li class="user-mail">natgiselle@gmail.com </li>
+							<li class="user-phone">034 - 23494885 </li>
+							<li class="user-web">www.natag.com</li>
 						</ul>
+						<div class="user-redes">
+						<!--iconos-->
+						
+						</div>
 					</div>
 
 					<!-- ----------------------------------------------------------------
@@ -72,30 +77,21 @@ include('includes/header.php');
 			---------------------------------------------------------------- -->
 
 			<!-- START project-main -->
-			<div id="project-main" class="row">
+			<div id="user-main" class="row">
 				<div class="medium-8 columns medium-centered">
 
 					<div class="project-summary">
-						<p>Archivo Alicia es una plataforma experimental y colaborativa que pone en primer término la perspectiva de la infancia sobre el espacio público. </p>
-
+						<p>Nacida en Italia, ha trabajado siempre en el mundo de la comunicación y de la educación. Con mucha energia y pasión por lo que hace, desde el principio ha sido una gran fan de trabajar con niños Le gustan las grandes y pequeñas ideas, y quiere crear una red de proyectos infantiles en Barcelona que nos ayuden a difundir la creatividad.</p>
 					</div>
-
-					<div class="guided-info">
-						<p><strong>Pregunta uno</strong></p>
-
-						<p>En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo de los de lanza en astillero, adarga antigua, rocín flaco y galgo corredor. Una olla de algo más vaca que carnero, salpicón las más noches, duelos y quebrantos los sábados, lantejas los viernes, algún palomino de añadidura los domingos, consumían las tres partes de su hacienda.</p>
-					</div>
-
-
-
+					
 				</div>
 			</div>
 			<!-- END project-main -->
 
 			<!-- START project-gallery -->
-			<div id="project-gallery" class="row">
+			<div id="user-gallery" class="row">
 				<div class="medium-12 columns">
-					<h3>Galería multimedia</h3>
+					<h3>Proyectos en los que trabaja</h3>
 
 					<div class="row">
 						<div class="small-12 columns">
@@ -137,6 +133,7 @@ include('includes/header.php');
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
+											<br>
 											<li class="visible">
 												<a class="th" href="project-gallery/projectgal-01.jpg">
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">

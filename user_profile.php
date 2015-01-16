@@ -133,8 +133,10 @@ include('includes/header.php');
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
-											<br>
-											<li class="visible">
+										</ul>
+									</div>
+											<!--fin proyectos en que colabora-->
+										<!--	<li class="visible">
 												<a class="th" href="project-gallery/projectgal-01.jpg">
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
@@ -163,7 +165,7 @@ include('includes/header.php');
 
 
 										</ul>
-									</div>
+									</div>-->
 								</div>
 							</div>
 

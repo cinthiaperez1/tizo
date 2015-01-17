@@ -102,7 +102,7 @@ include('includes/header.php');
 			<!-- END project-main -->
 
 			<!-- START project-gallery -->
-			<div id="user-gallery" class="row">
+			<div id="user-gallery" class="row"><!--comienza la galería de proyetos, debería tener sus propios estilos-->
 				<div class="medium-12 columns">
 					<h3>Proyectos en los que trabaja</h3>
 

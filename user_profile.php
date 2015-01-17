@@ -135,6 +135,7 @@ include('includes/header.php');
 											</li>
 										</ul>
 									</div>
+							   </div>
 											<!--fin proyectos en que colabora-->
 										<!--	<li class="visible">
 												<a class="th" href="project-gallery/projectgal-01.jpg">
@@ -166,7 +167,65 @@ include('includes/header.php');
 
 										</ul>
 									</div>-->
+								 <!--aqui cierra una galeria de tres imagnes-->>
+								
+								<div class="row"> <!--Aquí comienza galeria proyectos en que colabora-->
+						<div class="small-12 columns">
+							<h3>Proyectos en los que colabora</h3>
+							<div class="clearing-assembled">
+								<div class="">
+
+									<a href="#" class="clearing-close">×</a>
+
+									<div class="visible-img" style="display: none;">
+										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
+										</div>
+
+										<img src="project-gallery/projectgal-01.jpg" alt="" style="visibility: visible;">
+										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.</p>
+										<a href="#" class="clearing-main-prev disabled">
+											<span></span>
+										</a>
+
+										<a href="#" class="clearing-main-next">
+											<span></span>
+										</a>
+									</div>
+
+									<div class="carousel">
+										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-02.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-02.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+										</ul>
+									</div>
 								</div>
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
+								
 							</div>
 
 						</div>

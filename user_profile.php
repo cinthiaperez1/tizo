@@ -16,7 +16,7 @@ include('includes/header.php');
 		<header id="site-header">
 
 
-			<a href="LINK"><img src="LINK IMAGEN"></a>
+			
 
 
 				<!-- START content-header -->
@@ -46,19 +46,27 @@ include('includes/header.php');
 							<li class="user-place">Barcelona - España</li><br>
 						
 							<li class=user-datos>
-								<img class="mail-ico" src="img/mail.svg" alt="icono mail"> natgiselle@gmail.com 
+								
+								
+								
+								
+								<img class="mail-ico" src="img/mail.svg" alt="icono mail"> 
+								<a href="mailto:natgiselle@gmail.com">natgiselle@gmail.com</a>
 								<img class="phone-ico" src="img/phone.svg" alt="icono phone"> 034 - 23494885 
 							</li>
 							
 							<li class="user-web">
-								<a href="#">www.natagelle.org
+								 <a href="http://www.natagelle.org">www.natagelle.org
 									<img class="link-ico" src="img/link.svg" alt="icono link"></a> </li>
 							
 						
 							</ul>
 						
 						<div class="user-redes">
-							<a href="#"><img class="facebook-ico" src="img/fb.svg" alt="fb icono"></a> 
+							
+							
+							
+						<a href="#"><img class="facebook-ico" src="img/fb.svg" alt="fb icono"></a> 
 							<a href="#"><img class="twitter-ico" src="img/twitter.svg" alt="tw icono"></a> 
 							<a href="#"><img class="linkedin-ico" src="img/linkedin.svg" alt="lin icono"></a> 
 						</div>
@@ -102,89 +110,13 @@ include('includes/header.php');
 			<!-- END project-main -->
 
 			<!-- START project-gallery -->
-			<div id="user-gallery" class="row"><!--comienza la galería de proyetos, debería tener sus propios estilos-->
+			<div id="user-gallery" class="row">
 				<div class="medium-12 columns">
-					<h3>Proyectos en los que trabaja</h3>
+					<h3>Galería multimedia</h3>
 
 					<div class="row">
 						<div class="small-12 columns">
 
-							<div class="clearing-assembled"><!--cuál es su función?-->
-								<div class="">
-
-									<a href="#" class="clearing-close">×</a>
-
-									<div class="visible-img" style="display: none;">
-										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
-										</div>
-
-										<img src="project-gallery/projectgal-01.jpg" alt="" style="visibility: visible;">
-										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum.</p>
-										<a href="#" class="clearing-main-prev disabled">
-											<span></span>
-										</a>
-
-										<a href="#" class="clearing-main-next">
-											<span></span>
-										</a>
-									</div><!--llega hasta aqui , averiguar-->
-
-									<div class="carousel">
-										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-02.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-02.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-										</ul>
-									</div>
-							   </div>
-											<!--fin proyectos en que colabora-->
-										<!--	<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-
-
-
-										</ul>
-									</div>-->
-								 <!--aqui cierra una galeria de tres imagnes-->
-								
-								<div class="row"> <!--Aquí comienza galeria proyectos en que colabora-->
-						<div class="small-12 columns">
-							<h3>Proyectos en los que colabora</h3>
 							<div class="clearing-assembled">
 								<div class="">
 
@@ -222,60 +154,38 @@ include('includes/header.php');
 													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
 												</a>
 											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+
+
+
 										</ul>
 									</div>
 								</div>
-								
-								
-						<div class="row"><!--Aquí comienza galeria proyectos que sigue-->
-						<div class="small-12 columns">
-							<h3>Proyectos que sigue</h3>
-
-							<div class="clearing-assembled"><!--cuál es su función?-->
-								<div class="">
-
-									<a href="#" class="clearing-close">×</a>
-
-									<div class="visible-img" style="display: none;">
-										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
-										</div>
-
-										<img src="project-gallery/projectgal-01.jpg" alt="" style="visibility: visible;">
-										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur 
-											purus sit amet fermentum.</p>
-										<a href="#" class="clearing-main-prev disabled">
-											<span></span>
-										</a>
-
-										<a href="#" class="clearing-main-next">
-											<span></span>
-										</a>
-									</div><!--llega hasta aqui, averiguar cuál es su función-->
-
-									<div class="carousel">
-										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-02.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-02.jpg">
-												</a>
-											</li>
-											<li class="visible">
-												<a class="th" href="project-gallery/projectgal-01.jpg">
-													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
-												</a>
-											</li>
-										</ul>
-									</div>
-							   </div>	
-								
-								
-								
-					</div>
+							</div>
 
 						</div>
 					</div>
@@ -289,9 +199,23 @@ include('includes/header.php');
 				<div class="small-12 columns">
 					<h3>Colaboradores</h3>
 				</div>
-			</div>
+			</div>   
 			<!-- END project-collab -->
 
+			<!-- ----------------------------------------------------------------
+			Fin area editable para contenido
+			---------------------------------------------------------------- -->
+
+
+
+		</div>
+									
+			<!-- END project-gallery -->
+
+			
+									
+									
+		
 			<!-- ----------------------------------------------------------------
 			Fin area editable para contenido
 			---------------------------------------------------------------- -->
@@ -302,8 +226,6 @@ include('includes/header.php');
 		<!-- END main-content -->
 
 
-<?php
-
-include('includes/footer.php');
+<?php include('includes/footer.php');
 
 ?>

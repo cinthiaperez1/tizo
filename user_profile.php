@@ -1,7 +1,7 @@
 <?php
 /*
 tizo
-[USER]
+[USER_PROFILE]
 
 */
 
@@ -16,7 +16,7 @@ include('includes/header.php');
 		<header id="site-header">
 
 
-			
+			<a href="LINK"><img src="LINK IMAGEN"></a>
 
 
 				<!-- START content-header -->
@@ -31,23 +31,36 @@ include('includes/header.php');
 
 					<!-- Cambiar esta parte siguiente por la que va en cada caso -->
 					<div class="medium-4 columns">
-						<div class="user-pic large">
-							<img src="img/project-main.jpg" alt="Archivo Alicia" /> <!--Aqui dentro va la foto del user-->
+						<!--<div class="user-pic large">-->
+						<div class="user-pic">
+							<img class="foto-user" src="img/users/user_2.jpg" alt="foto usuario" /> 
 						</div>
+					
 					</div>
 					<div class="medium-8 columns">
+						
 						<h2 class="user-name">Natalia Gisele Hayquel</h2>
 						
 						<ul class="project-meta">
 							<li class="user-name">Profesora de primaria</li>
-							<li class="user-place">Barcelona - España</li>
-							<li class="user-mail">natgiselle@gmail.com </li>
-							<li class="user-phone">034 - 23494885 </li>
-							<li class="user-web">www.natag.com</li>
-						</ul>
-						<div class="user-redes">
-						<!--iconos-->
+							<li class="user-place">Barcelona - España</li><br>
 						
+							<li class=user-datos>
+								<img class="mail-ico" src="img/mail.svg" alt="icono mail"> natgiselle@gmail.com 
+								<img class="phone-ico" src="img/phone.svg" alt="icono phone"> 034 - 23494885 
+							</li>
+							
+							<li class="user-web">
+								<a href="#">www.natagelle.org
+									<img class="link-ico" src="img/link.svg" alt="icono link"></a> </li>
+							
+						
+							</ul>
+						
+						<div class="user-redes">
+							<a href="#"><img class="facebook-ico" src="img/fb.svg" alt="fb icono"></a> 
+							<a href="#"><img class="twitter-ico" src="img/twitter.svg" alt="tw icono"></a> 
+							<a href="#"><img class="linkedin-ico" src="img/linkedin.svg" alt="lin icono"></a> 
 						</div>
 					</div>
 
@@ -96,7 +109,7 @@ include('includes/header.php');
 					<div class="row">
 						<div class="small-12 columns">
 
-							<div class="clearing-assembled">
+							<div class="clearing-assembled"><!--cuál es su función?-->
 								<div class="">
 
 									<a href="#" class="clearing-close">×</a>
@@ -114,7 +127,7 @@ include('includes/header.php');
 										<a href="#" class="clearing-main-next">
 											<span></span>
 										</a>
-									</div>
+									</div><!--llega hasta aqui , averiguar-->
 
 									<div class="carousel">
 										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
@@ -167,7 +180,7 @@ include('includes/header.php');
 
 										</ul>
 									</div>-->
-								 <!--aqui cierra una galeria de tres imagnes-->>
+								 <!--aqui cierra una galeria de tres imagnes-->
 								
 								<div class="row"> <!--Aquí comienza galeria proyectos en que colabora-->
 						<div class="small-12 columns">
@@ -214,19 +227,55 @@ include('includes/header.php');
 								</div>
 								
 								
+						<div class="row"><!--Aquí comienza galeria proyectos que sigue-->
+						<div class="small-12 columns">
+							<h3>Proyectos que sigue</h3>
+
+							<div class="clearing-assembled"><!--cuál es su función?-->
+								<div class="">
+
+									<a href="#" class="clearing-close">×</a>
+
+									<div class="visible-img" style="display: none;">
+										<div class="clearing-touch-label" style="margin-left: 0px; margin-top: -341px;">
+										</div>
+
+										<img src="project-gallery/projectgal-01.jpg" alt="" style="visibility: visible;">
+										<p class="clearing-caption">Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur 
+											purus sit amet fermentum.</p>
+										<a href="#" class="clearing-main-prev disabled">
+											<span></span>
+										</a>
+
+										<a href="#" class="clearing-main-next">
+											<span></span>
+										</a>
+									</div><!--llega hasta aqui, averiguar cuál es su función-->
+
+									<div class="carousel">
+										<ul class="clearing-thumbs small-block-grid-2 medium-block-grid-4 large-block-grid-6" data-clearing="" style="">
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-02.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-02.jpg">
+												</a>
+											</li>
+											<li class="visible">
+												<a class="th" href="project-gallery/projectgal-01.jpg">
+													<img data-caption="Nulla vitae elit libero, a pharetra augue. Cras mattis consectetur purus sit amet fermentum." src="project-gallery/th-projectgal-01.jpg">
+												</a>
+											</li>
+										</ul>
+									</div>
+							   </div>	
 								
 								
 								
-								
-								
-								
-								
-								
-								
-								
-								
-								
-							</div>
+					</div>
 
 						</div>
 					</div>
